@@ -1,0 +1,32 @@
+{
+  "name": "@hashiprobr/react-use-emitter-and-listener",
+  "version": "1.0.0",
+  "description": "TODO",
+  "keywords": [
+    "JavaScript",
+    "React",
+    "React Hook",
+    "React Context",
+    "createContext",
+    "useContext",
+    "useEffect"
+  ],
+  "homepage": "https://github.com/hashiprobr/react-use-emitter-and-listener#readme",
+  "bugs": {
+    "url": "https://github.com/hashiprobr/react-use-emitter-and-listener/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashiprobr/react-use-emitter-and-listener.git"
+  },
+  "license": "ISC",
+  "author": "Marcelo Hashimoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@hashiprobr/react-create-state-context": "^1.0.5",
+    "react": "^17.0.1"
+  }
+}
