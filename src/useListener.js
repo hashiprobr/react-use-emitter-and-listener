@@ -7,14 +7,13 @@ export default function useListener(create, evts) {
 
     const deps = [];
 
-    for (const Event of evts) {
-        let value;
-        try {
-            value = useContext(Event);
-        } catch (error) {
-            throw new TypeError('Second argument of useListener must be an array of events');
+    try {
+        for (const Event of evts) {
+            const value = useContext(Event);
+            deps.push(value[0]);
         }
-        deps.push(value[0]);
+    } catch (error) {
+        throw new TypeError('Second argument of useListener must be an array of events');
     }
 
     return useEffect(create, deps);
