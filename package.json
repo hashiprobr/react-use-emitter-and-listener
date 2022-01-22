@@ -1,7 +1,7 @@
 {
   "name": "@hashiprobr/react-use-emitter-and-listener",
-  "version": "1.0.2",
-  "description": "TODO",
+  "version": "1.0.3",
+  "description": "React Hooks for emitting and listening to events with a syntax inspired by contexts and effects",
   "keywords": [
     "JavaScript",
     "React",
