@@ -13,7 +13,7 @@ events with a syntax inspired by `useEffect`.
   intend to use it.
 
 * The `useEmitter` hook receives an event and returns a function that should be
-  called whenever the components wants to emit this event.
+  called whenever the component wants to emit this event.
 
 * The `useListener` hook is similar to `useEffect`. The difference is that,
   while the latter should use props or states as dependencies, the former should
