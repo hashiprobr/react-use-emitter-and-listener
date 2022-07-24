@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-use-emitter-and-listener",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "React Hooks for emitting and listening to events with a syntax inspired by contexts and effects",
   "keywords": [
     "JavaScript",
@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "@hashiprobr/react-create-state-context": "^1.0.5",
-    "react": "^17.0.1"
+    "@hashiprobr/react-create-state-context": "1.0.6",
+    "react": "17.0.2"
   }
 }

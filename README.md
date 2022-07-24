@@ -26,8 +26,8 @@ Peer dependencies
 
 ``` json
 {
-    "@hashiprobr/react-create-state-context": "^1.0.5",
-    "react": "^17.0.1"
+    "@hashiprobr/react-create-state-context": "1.0.6",
+    "react": "17.0.2"
 }
 ```
 
@@ -76,7 +76,7 @@ Example
 -------
 
 ``` js
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Text, Button } from 'react-native';
 
@@ -104,7 +104,7 @@ function B() {
     );
 }
 
-function MyApp() {
+export default function MyApp() {
     return (
         <IncrementEvent.Provider>
             <A />
